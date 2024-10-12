@@ -1,6 +1,3 @@
-Here’s a light and casual README file for your portfolio website repo:
-
----
 
 **My Portfolio Website** 🚀
 
