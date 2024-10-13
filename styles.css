@@ -21,8 +21,11 @@
 }
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 90px; 
 }
-
+/* body {
+    padding-top: 5rem;
+} */
 * {
     margin: 0;
     padding: 0;
@@ -34,6 +37,12 @@ p {
     margin-bottom: 0 !important;
 }
 
+header {
+    position: fixed;
+    width: 100%;
+    background-color: var(--white);
+    box-shadow: -5px 0 5px rgba(0, 0, 0, 0.45);
+}
 .navy > a {
     font-family: "Rancho", cursive; 
     color: var(--mainbrown);
@@ -48,7 +57,6 @@ p {
     align-items: baseline;
     padding-top: 1rem;
     
-    /* margin: 1rem 0 1rem 0; */
 }
 
 
@@ -127,8 +135,8 @@ p {
     color: var(--white);
     background-color: var(--mainbrown);
     /* padding: 15rem 8rem ; */
-    min-height: 80vh;
-    /* display: flex; */
+    min-height: 90vh;
+    display: flex;
     align-items: center;
     justify-content: space-around;
 }
@@ -139,7 +147,7 @@ p {
     justify-content: space-between;
 }
 .hero-section h1 {
-    font-size: 5rem;
+    font-size: 4.5rem;
     font-weight: 600;
 }
 .hero-section p {
@@ -246,7 +254,9 @@ p {
     max-width: 100%;
     margin-bottom: 10px ;
 }
+  
 
+/* CONTACT */
 .contact input{
     padding: 20px;
     border-radius: 20px;
